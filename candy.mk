@@ -1,10 +1,10 @@
-$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/candy5/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
 
 $(call inherit-product, device/htc/t6/full_t6.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_europe BUILD_ID=LRX22G BUILD_FINGERPRINT="htc/htc_europe/t6ul:5.0.2/LRX22G/525693.7:user/release-keys" PRIVATE_BUILD_DESC="4.13.401.7 CL525693 release-keys"
 
-PRODUCT_NAME := candy5_t6
+PRODUCT_NAME := candy_t6
 PRODUCT_DEVICE := t6
